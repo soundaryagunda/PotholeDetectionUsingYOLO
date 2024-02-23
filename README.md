@@ -15,4 +15,27 @@ Potholes are a major problem on roads worldwide and lead to accidents and damage
 - models/ - trained YOLOv4 weights and configuration files
 - detections/ - output images and videos with detected potholes
 - src/ - source code for model training, detection and evaluation scripts
-- Pothole_Detection.ipynb - Jupyter notebook containing project code and visualizations
+- img-detection.py - Jupyter notebook containing project code and visualizations
+
+## Conclusion:
+In conclusion, automatic pothole detection in pictures or video frames 
+utilising the YOLO (You Only Look Once) algorithm is a promising 
+approach. Potholes may be precisely spotted in real-time by training a 
+bespoke object identification model using YOLO, which might 
+possibly save time and costs in road repair.
+Pothole detection with YOLO has a number of benefits, including 
+high accuracy, real-time performance, and efficient data processing of 
+enormous amounts of information. A pothole detection system that 
+can be installed in moving vehicles and use YOLO to detect potholes 
+in a video feed and send a warning or take action to avoid the pothole 
+is another application for this technology.
+Although while YOLO has produced encouraging results for pothole 
+identification, there are still several issues that must be resolved. They 
+include the requirement for extensive and varied datasets to train the 
+YOLO model, the possibility of false positives or false negatives, and 
+the requirement to adapt the YOLO model to various lighting and 
+environmental circumstances.
+Overall, YOLO-based pothole detection is a promising strategy for
+enhancing road maintenance and safety, and additional study and 
+development in this field may result in pothole detection systems that 
+are more precise and effective
